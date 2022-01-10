@@ -1,0 +1,35 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+<img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F61b2e75e25fd41e930e1cfc8%2FThe-Five-Biggest-Space-Technology-Trends-for-2022%2F960x0.jpg%3Ffit%3Dscale">
+
+<span id="date">December 12, 2021</span>
+
+<span id="title">2022 Space Technologies</span>
+
+<span id="text">The interest in space travel has resurged in the past decade driven by the technological innovation. Some of the main plans for 2022 are traveling back to the moon, satellites, cleaning up our messes and space technology vs. climate change.<br>
+According to the website "Forbes":<br>
+"Travel to the moon has not been top of the space exploration agenda for the past few decades, but that has changed as a number of strategic reasons to resume lunar landings have been identified in recent years. Mostly these will not call for humans to visit the barren satellite and will be conducted by autonomous landers and exploration vehicles. One key reason for the renewed interest is that it is thought it will be a good testbed for many technologies that will eventually help us make our way to Mars.<br><br>
+
+Satellites are becoming smaller and lighter, meaning that even start-ups can now take advantage of the technological capabilities. In fact, reports in recent years have found that the cost to a business of launching a satellite is becoming comparable to launching an app. China's Galaxy Space has developed and launched 1,000 small satellites into space for its customers in industries including aviation, marine, and vehicle manufacturing. Meanwhile, another Chinese company, ADA Space, is planning a network of 192 satellites that will use artificial intelligence (AI) technology to provide live streaming satellite imagery of the Earth.<br>
+One worrying side effect of space exploration is that we might end up making as much of a mess of the rest of the universe as we have done of our own home planet. It’s estimated that there are already up to 8,000 tons of debris from previous space missions and now-defunct satellites floating in Earth’s orbit. These potentially pose a hazard to future space missions, where collisions could be catastrophic, but also threaten to interfere with many of the space services we rely on, such as weather forecasts and GPS.<br><br>
+
+Space technology is specifically recognized as one of the keys to achieving the 17 Sustainable Development Goals for 2030 set out by the United Nations. A great example is the reflective materials originally developed to conserve heat in spacecraft, which are now commonly used to insulate buildings on Earth. This means that world governments are increasingly investing in space innovation with the primary purpose of tackling challenges caused by climate change on Earth. And with a growing awareness of the importance of decarbonization and limiting global warming among businesses, it's becoming an active focus of enterprise activity too."<br><br>
+
+Further information <a href="https://www.forbes.com/sites/bernardmarr/2021/12/10/the-five-biggest-space-technology-trends-for-2022/?sh=6f3725591bf4"><u style="cursor: pointer;">here</u><a></span>
+
+</div>
+</section>
+</main>

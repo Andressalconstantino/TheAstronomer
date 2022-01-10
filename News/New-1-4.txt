@@ -1,0 +1,37 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/International_Space_Station_after_undocking_of_STS-132.jpg">
+
+<span id="date">January 06, 2022</span>
+
+<span id="title">China’s Mega Space Plan </span>
+
+<span id="text">In 2022, the space race between China and USA may tremendously heat up. China announced that it plans at least 40 space launches for this year in China Aerospace and Technology Corporation social media account.<br><br>
+
+According to the website "TheEurAsianTimes":<br>
+"With about 40 Chinese launches slated to happen this year and repeated American assertions about China trying to militarize space, fresh frictions between the two adversaries could be expected.
+To add to it, China and Russia will sign a new five-year space cooperation deal. Ground-monitoring stations are planned to be installed in both China and Russia as their satellite networks, China’s BeiDou and Russia’s Glonass, are integrated, according to reports.<br>
+Working with China has given Russia the possibility of pursuing the type of ambitious scientific voyage that it has not achieved on its own in the post-Soviet era.<br>
+A month after announcing joint work on the lunar station, the two countries announced in April 2021 that they would team up for a 2024 robotic mission to an asteroid called Kamo’oalewa. The spacecraft will circle past Earth to drop off a sample and then use Earth’s gravity as a slingshot for a secondary trip to a comet"
+<br><br>
+Further Information <a href="https://eurasiantimes.com/china-heats-up-the-space-race-plans-40-missions-2022/"><u style="cursor: pointer;">here</u></a>.
+</span>
+
+
+</div>
+</section>
+</main>

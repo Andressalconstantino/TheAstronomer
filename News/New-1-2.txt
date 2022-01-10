@@ -1,0 +1,34 @@
+
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+
+<img src="https://cdn.mos.cms.futurecdn.net/xXsbMzxHwCmz6Ks3KWmij8-970-80.jpg.webp">
+
+<span id="date">December 17, 2022</span>
+
+<span id="title">Journey to Mars</span>
+
+<span id="text">Two explorers are being tracked by NASA to learn about humans Mars survival abilities, they have been sent on a jorney across Antarctica.<br>
+According to the website "LiveScience":<br>
+"British explorers Justin Packshaw and Jamie Facer Childs are on the 32nd day of an 80-day trek across the southernmost continent as part of the Chasing the Light mission — a grueling expedition that could give space agencies a better understanding of the psychological and physical impact of other worlds on the human body and mind.<br><br>
+
+The men are braving freezing temperatures and katabatic winds up to the recorded maximum of 200 mph (320 km/h) as they make their way across the continent — first as they complete the 1,342-mile (2,159 km) leg from the port of Novolazarevskaya to the geographic South Pole, and later as they travel the remaining 926 miles (1,490 km) past Hercules Inlet to Union Glacier Camp".<br><br>
+
+Further Information <a href="https://www.livescience.com/explorers-trek-antarctica-test-human-mars-survival"><u style="cursor: pointer;">here</u></a>.</span>
+
+</div>
+</section>
+</main>

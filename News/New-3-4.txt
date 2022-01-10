@@ -1,0 +1,36 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+<img src="https://images.indianexpress.com/2021/12/sleeping-bag.jpg">
+
+<span id="date">December 13, 2022</span>
+
+<span id="title">High-Tech Sleeping Bag</span>
+
+<span id="text">When astronauts are in space they may suffer from vision problems cause by fluids that reshape and push the eyeball's back.<br>
+Looking for a solution for this problem, according to the website "The Indian Express":
+"Researchers from the University of Texas have designed a new vacuum-equipped sleeping bag that can pull down body fluids that naturally flowed into our heads while sleeping in a supine position. When in space, astronauts can suffer from problems in vision as these fluids push and reshape the back of the eyeball.
+<br><br>
+The new study published last week in JAMA Ophthalmology found that three days of lying flat in a simulated microgravity environment induced enough pressure to slightly alter the shape of the eyeball but no such change was seen when the new suction technology was used.
+The sleeping bag has a solid frame, shaped like a space capsule, and fits over a person from the waist down. The study included ten volunteers including one of the authors Dr James Leidner. He is an internal medicine hospitalist in San Antonio.<br>
+The volunteers spent three days sleeping eight hours in a research room and three days in sleeping bags for eight hours. The team then compared the changes in the brain after each stint.
+<br><br>
+The researchers add that several questions need to be answered before NASA brings this technology to the space station, including the optimal amount of time astronauts should spend in the sleeping bag each day."
+<br><br>
+Further information <a href="https://indianexpress.com/article/technology/science/sleeping-bag-space-astronauts-7670646/"><u style="cursor: pointer;">here</u><a></span>
+
+</div>
+</section>
+</main>

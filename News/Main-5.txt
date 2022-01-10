@@ -1,0 +1,41 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+
+<img src="https://cdn.mos.cms.futurecdn.net/G83tmpruk9JYDLqWRYiWun.jpg">
+
+<span id="date">January 03, 2022</span>
+
+<span id="title">2021 Review</span>
+
+<span id="text">2021 was a year full of space news, space exploration was in the spotlight. According to the website "Fox News" some of the biggest moments were:<br>
+"NASA’s Perseverance Mars rover lands on Mars:<br>
+On Feb. 18, NASA's fifth Mars rover, Perseverance, successfully landed on Mars’ Jezero crater. This landing is one of those pivotal moments for NASA, the United States, and space exploration globally – when we know we are on the cusp of discovery and sharpening our pencils, so to speak, to rewrite the textbooks,"then-acting NASA Administrator Steve Jurczyk said in a statement:<br> "The Mars 2020 Perseverance mission embodies our nation’s spirit of persevering even in the most challenging of situations, inspiring, and advancing science and exploration.<br><br>
+
+NASA’s Ingenuity Mars helicopter flies:<br>
+On April 19, NASA made history once again after its Ingenuity Mars helicopter completed the first-ever powered, controlled flight on another planet. The helicopter hovered for 30 seconds at its planned altitude of 10 feet, and spent 39 seconds airborne.<br><br>
+
+Chinese rocket booster falls back to Earth:<br>
+On the evening of May 8, the core stage of China’s Long March 5B booster re-entered Earth’s atmosphere, burning up over the Maldives. After NASA Administrator Bill Nelson and others accused Beijing of acting recklessly, the Chinese government said it was unfairly being held to different standards than the U.S. and other space programs.<br><br>
+
+NASA selects two missions to study Venus:<br>
+On June 2, NASA announced it had selected two new missions to Venus. The VERITAS (Venus Emissivity, Radio Science, InSAR, Topography, and Spectroscopy) and DAVINCI+ (Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging) missions map Earth’s nearest planetary neighbor and measure its atmosphere."<br><br>
+
+Further information and more important space exploration moments in 2021 <a href="https://www.foxnews.com/science/2021-in-review-top-space-stories-of-the-year"><u style="cursor: pointer;">here</u><a>.
+</span>
+
+</div>
+</section>
+</main>

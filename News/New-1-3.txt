@@ -1,0 +1,40 @@
+
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+
+<img src="https://estaticos.megainteresting.com/media/cache/1000x460_thumb/uploads/images/pyr/5e0f48f05bafe84178f2173f/basura-espacial_0.jpg">
+
+<span id="date">January 03, 2022</span>
+
+<span id="title">Kessler Syndrome</span>
+
+<span id="text">Between tens of thousands of new satellites and the increasing weaponization of space, a chain reaction may soon reach a tipping point.<br><br>
+
+Humams have flung lots of things up in the sky, and even tho it is really big, collisions between them may still happen and they can be catastrophic.<br>
+According to the website "Inverse":<br>
+"More satellites in space mean more potential collisions, which means more satellites — and space stations — making more frequent evasive maneuvers to avoid further collisions, all of which can interrupt operations and cost operators money by decreasing the lifespan of their satellites. Every Starlink satellite has a limited amount of krypton propellant onboard for maneuvering around debris and Chinese space stations, for instance, and when the tank is near empty, it’s time for that satellite’s long fiery goodbye bow in the upper atmosphere — failure to do so just increases the problem by adding another dead satellite.<br>
+“Space is big,” Rand says, “but once things start to collide, it becomes rapidly small.”
+Rapidly, but not linearly. Unfortunately, if the Kessler cascade is already underway, it will take years to reach a point where it’s happening in what humans perceive as “real-time.” By then, it may be too late.
+The consequence of full bore Kessler syndrome allowed to run its course would be to negate the sci-fi ambitions of people like Elon Musk. To proscribe humans from the cosmos and limit our future to that of a one-planet species for many lifetimes — physically and intellectually. The space debris could ruin ground-based astronomy, too, hemming in our minds as well as our rockets".<br><br>
+
+“The bright side is that we are starting to restart discussions about what are the right rules of the road in space,” McDowell says. “Maybe if people get alarmed enough that something will actually be done.”<br><br>
+
+Further Information <a href="https://www.inverse.com/science/what-is-kessler-syndrome"><u style="cursor: pointer;">here</u></a>.</span>
+
+
+</div>
+</section>
+</main>

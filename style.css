@@ -1,0 +1,1036 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+}
+
+.moon-title{
+    color: #FFF;
+    font-weight: 400;
+}
+/* --------------- SECTIONS ------------------ */
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: #0d0d0d;
+    max-width: 100%;
+    color: #fff
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    text-align: center;
+}
+#start{
+    background-image: url('img/BackgroundLogo.png');
+    height: 100vh;
+    padding: 0 0 0 0;
+    width: 100%;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#video{
+    background-image: url('img/BackgroundVideo.png');
+    height: 55vh;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    background-position: center;  
+    background-position-y: 0px; 
+}
+
+#banner-moon{
+    background: linear-gradient(180deg, #000000 48.44%, #A49E9E 100%);
+    height: 21vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.moon{
+    border-right: 1px solid #fff;
+}
+.moon img, .Lastmoon img{
+    width: 50%;
+}
+/* ------------------------------------------------ */
+
+
+
+
+/* ------------------- MENU ------------------ */
+#search{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100px;
+    color: white;
+    border: none;
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+  }
+li {
+display: inline-block;
+padding: 10px 30px;
+}
+li a{
+    color: #fff;
+}
+li a:hover{
+    opacity: 0.7;
+}
+#menu{
+    border-bottom: 2px solid #17396E;
+    margin-left: -2px;
+    
+}
+
+#menu img{
+    width: 70%;
+    margin-bottom: -14px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beside-menu{
+    margin-bottom: -40px;
+    align-content: center;
+}
+.beside-menu a:hover{
+    opacity: 0.7;
+}
+footer a:hover{
+    opacity: 0.7;
+}
+/* -------------------------------------- */
+
+
+
+/* ---------------------- TEXT ------------- */
+.small-text subtitle-cards{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+#main-title{
+    display:flex;
+    justify-content:center;
+    font-family: 'Ovo', serif;
+    font-size: 50px;
+    font-weight: 1.7;
+}
+#title-about{
+    margin: 50px 0 10px 0;
+}
+.title-cards{
+    align-content: center;
+    color: #FFFFFF;
+}
+
+.subtitle-cards{
+    justify-content: left;
+    color: #FFFFFF;
+
+}
+.small-text{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150;
+}
+.medium-text{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#videotitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 34px;
+    margin: 10px 0 20px 0;
+    align-content: center;
+}
+#videodescription{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+}
+.copyrightsandcnpj{
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 450;
+}
+/* ------------------------------------------------ */
+
+
+
+
+/* ----------- NOTICIAS PRINCIPAIS ---------------- */
+#main-news{
+    display: flex;
+    flex-direction: row;
+    margin: 250px 400px 0 400px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.news-card{
+    /* margin: top right bottom left*/
+    position: absolute;
+    width: 20%;
+    
+}
+#leftUp{
+    margin: -150px 0 0 -500px;
+    display: block;
+}
+
+@keyframes moveLeftUpAL {
+    0%{
+        margin: -180px 0 0 -700px;
+    }
+    100%{
+        margin: -150px 0 0 -500px;
+    }
+}
+
+@keyframes moveLeftUpAR{
+    0%{
+        margin: 0;
+    }
+    100%{
+        margin: -150px 0 0 -500px;
+    }
+}
+#rightUp{
+    margin: -150px -500px 0 0;
+    display: block;
+}
+@keyframes moveRightUpAL {
+    0%{
+        margin: 0;
+    }
+    100%{
+        margin: -150px -500px 0 0;
+    }
+}
+
+@keyframes moveRightUpAR{
+    0%{
+        margin: -170px -650px 0 0;
+    }
+    100%{
+        margin: -150px -500px 0 0;
+    }
+}
+#middle{
+    margin: 0;
+    display: block;
+}
+
+@keyframes moveMiddleAL {
+    0%{
+        margin: -150px 0 0 -500px;
+    }
+    100%{
+        margin: 0;
+    }
+}
+
+@keyframes moveMiddleAR{
+    0%{
+        margin: -150px -500px 0 0;
+    }
+    100%{
+        margin: 0;
+    }
+}
+#hideRight{
+    margin: 0 -1000px 0 0;
+    opacity: 0;
+    
+}
+@keyframes moveHideRightAL {
+    0%{
+        margin: -150px -500px 0 0;
+        opacity: 1;
+    }
+    100%{
+        margin: -250px -700px 0 0;
+        opacity: 0;
+    }
+}
+#hideLeft{
+    margin: -250px 0 0 -1500px;
+    opacity: 0;
+}
+@keyframes moveHideLeftAR{
+    0%{
+        margin: -150px 0 0 -500px;
+        opacity: 1;
+    }
+    100%{
+        margin: -250px 0 0 -700px;
+        opacity: 0;
+    }
+}
+#aux{
+    margin: 0 0 -500px 0;
+    display: none;
+}
+#beside{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-card img{
+    margin-bottom: 0
+}
+.news-card{
+    cursor: pointer;
+}
+/* -------------------------------------- */
+
+
+
+
+/* -------------- TODAS AS NOTICIAS ----------------- */
+#filtered-news{
+    background: linear-gradient(0.19deg, #110E19 0.18%, #110E19 0.37%, #231C39 44.41%, #02060C 87.53%, #000000 102.45%, rgba(22, 46, 84, 0.67699) 102.66%, #000000 102.7%);
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+    padding: 100px 0 170px 0;
+    justify-content: space-evenly;
+    width: 100%;
+
+    
+}
+.filtered-news-card {
+    color: black;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 132px;
+    margin-bottom: 8%;
+    border-radius: 10px;
+    padding: 0 10px 0 0;
+    cursor: pointer;
+}
+.underTandT{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    animation: appear 0.5s;
+}
+.underTandT h3{
+    font-weight: 500;
+}
+.description{
+    text-align: left;
+}
+.filtered-news-card h3 {
+    align-self: center;
+    vertical-align: middle;
+    padding-left: 10%;
+    
+}
+.description{
+    font-size: 14px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+.desc {
+    display: none;
+}
+.dateAndTime{
+    text-align: left;
+    font-size: 12px;
+    margin: 0 0 -8px 0;
+    padding-left: 5px;
+    
+}
+.filtered-news-card img {
+    width: 40%;
+    height:75%;
+    padding-left: 3px;
+}
+#filtered-news-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------------------------------------------------ */
+/* -------------- TITLE PLANETS ------------------ */
+.inner{
+    margin-bottom:-110px ;
+    z-index: 2;
+    text-align: center;
+    display: none;
+}
+.inner h1{
+    padding: 0 5px 3px 5px;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+    animation: appear 1.8s;
+}
+/* ------------- PLANETS ------------------- */
+#animation{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background-image: url("img/StarBg.png");
+    animation: appear 1s;
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.box_sol {
+    background:url(https://www.solarsystemscope.com/textures/download/2k_sun.jpg);
+    background-size:cover;
+    border:2px solid #cc9f4c;
+    width:500px;
+    height:250px;
+    animation: movement 350s linear 0s infinite;
+    box-shadow: 0px 0px 10px 0px #cc9f4c, 0px 0px 100px -2px #cc9f4c;
+    /* margin:6em auto; */
+    margin-left: -9.5%;
+    margin-right: -10%;
+    transform: rotate(90deg);
+    border-radius: 1000px 1000px 0 0;
+    padding: 0;
+
+  }
+.box_mercurio {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/332937/mercury2.jpg);
+    background-size:cover;
+    border:2px solid #000;
+    border-radius:50%;
+    width: 30px;
+    height:30px;
+    animation: movement 400s linear 0s infinite;
+    box-shadow:0 0 25px RGBA(255,255,255, 0.10),
+               -8px -8px 15px #000 inset,
+               2px 2px 25px #000 inset,
+               -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+               25px 25px 45px RGBA(0,0,0, 0.45) inset;
+    margin:6em auto;
+    transform:rotate(0.034deg);
+  }
+.box_venus {
+    background:url(https://www.solarsystemscope.com/textures/download/2k_venus_atmosphere.jpg);
+    background-size:cover;
+    border:2px solid #000;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    animation: movement 600s linear 0s infinite;
+    box-shadow:0 0 25px RGBA(255,255,255, 0.10),
+               -8px -8px 15px #000 inset,
+               2px 2px 25px #000 inset,
+               -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+               25px 25px 45px RGBA(0,0,0, 0.45) inset;
+    margin:6em auto;
+    transform:rotate(117.3deg);
+  }
+.box_marte {
+    background:url(https://www.solarsystemscope.com/textures/download/2k_mars.jpg);
+    background-size:cover;
+    border:2px solid #000;
+    border-radius:50%;
+    width: 85px;
+    height: 85px;
+    animation: movement 60s linear 0s infinite;
+    box-shadow:0 0 10px RGBA(250,152,34, 0.5),
+               -8px -8px 15px #000 inset,
+               2px 2px 25px #000 inset,
+               -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+               25px 25px 45px RGBA(0,0,0, 0.45) inset;
+    margin:6em auto;
+    transform:rotate(25.2deg);
+  }
+.box_terra {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/332937/earth.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+    border:2px solid #000;
+    border-radius:50%;
+    width:80px;
+    height:80px;
+    animation: movement 50s linear 0s infinite;
+    box-shadow:0 0 20px RGBA(117,190,230,0.3),
+               -8px -8px 15px #000 inset,
+               2px 2px 25px #000 inset,
+               -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+               25px 25px 45px RGBA(0,0,0, 0.45) inset;
+    margin:6em auto;
+    transform: rotate(23.26deg);
+  }
+.box_jupter {
+    background:url(https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg);
+    background-size:cover;
+    border:2px solid #000;
+    border-radius:50%;
+    width:160px;
+    height:160px;
+    animation: movement 30s linear 0s infinite;
+    box-shadow:0 0 25px RGBA(255,255,255, 0.10),
+               -8px -8px 15px #000 inset,
+               2px 2px 25px #000 inset,
+               -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+               25px 25px 45px RGBA(0,0,0, 0.45) inset;
+    margin:6em auto;
+    transform:3.1deg;
+  }
+.box_saturno{
+    background:url(https://www.solarsystemscope.com/textures/download/2k_saturn.jpg);
+    background-size:cover;
+    border:2px solid #000;
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    animation: movement 45s linear 0s infinite;
+    box-shadow:0 0 25px RGBA(255,255,255, 0.10),
+               -8px -8px 15px #000 inset,
+               2px 2px 25px #000 inset,
+               -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+               25px 25px 45px RGBA(0,0,0, 0.45) inset;
+    margin:6em auto;
+    transform:26.7deg;
+  }
+.box_urano{
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/332937/uranus2.jpg);
+    background-size:cover;
+    border:2px solid #000;
+    border-radius:50%;
+    width:90px;
+    height:90px;
+    animation: movement 50s linear 0s infinite;
+    box-shadow:0 0 15px RGBA(158,184,251, 0.5),
+               -8px -8px 15px #000 inset,
+               2px 2px 25px #000 inset,
+               -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+               25px 25px 45px RGBA(0,0,0, 0.45) inset;
+    margin:6em auto;
+    transform:rotate(97.8deg);
+  }
+.box_netuno{
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/332937/neptune.jpg);
+    background-size:cover;
+    border:2px solid #000;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    animation: movement 50s linear 0s infinite;
+    box-shadow:0 0 20px RGBA(18,18,122, 0.5),
+               -8px -8px 15px #000 inset,
+               2px 2px 25px #000 inset,
+               -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+               25px 25px 45px RGBA(0,0,0, 0.45) inset;
+    margin:6em auto;
+    transform:rotate(28.3deg);
+  }
+
+@keyframes movement {
+    0% { background-position: 100%  center}
+    100% { background-position: 4000px  center}
+  }
+
+
+
+/* ----------------- ABOUT PLANETS ---------------- */
+.aboutPlanets{
+    display:none;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    width: 100%;
+    align-content: center;
+    background-image: url("img/StarBg.png");
+    text-align: left;
+    padding: 1% 0 1% 0;
+    animation: appear 1s;
+}
+
+.backToPlanets{
+    width: 5%;
+    margin: 20px 0 20px 50px;
+}
+.aboutPlanets h1{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 36px;
+}
+.aboutPlanets pre{
+    align-self: center;
+    font-size: 18px;
+}
+
+/* ---------------------------------------------- */
+
+
+/* ------------------- LINHAS --------------- */
+.big-hr{
+    width:20%;
+    height: 2px;
+    border: none;
+    margin: 1% 0 1% 40%;
+    background-color: #F0F0F0
+}
+.small-hr{
+    width: 40%;
+    margin: -15px 0 -15px 30%;
+}
+.moon-line {
+    width: 1px;
+    height: 75px;
+    border: none;
+    background-color: #F0F0F0;
+    margin: 0 5px 0 0;
+    border: none;
+}
+/* ----------------------------------------- */
+
+
+
+/* -------------- BOTÕES -------------------- */
+/* #SunButton{
+    all: unset;
+    width:80px;
+    height:100%;
+    position: absolute;
+    border-radius: 1000px 1000px 0 0;
+} */
+.buttonRight {
+    all: unset;
+    z-index: 2;
+}
+.buttonLeft {
+    all: unset;
+    z-index: 2;
+}
+.top{
+    z-index: 1;
+}
+
+/* ------------------------------------------ */
+
+
+/* ----------- VIDEO ---------------- */
+#video-window{
+    margin: -30px 0 0 0;
+    
+}
+
+
+/* ---------- FOOTER --------------- */
+footer{
+    color: #0d0d0d;
+    background-color: #fff;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 100%;
+}
+
+footer a{
+    color: #0d0d0d;
+}
+#moreinfocolumns{
+    display: flex;
+    flex-direction: row;
+}
+
+#moreinfo{
+    display: flex;
+    flex-direction: row;
+}
+#moreinfo-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 32%;
+}
+
+#moreinfosocialnetworks img{
+    margin: 5px 5px -70px 5px;
+}
+
+#moreinfo-center img{
+    width: 35%;
+}
+
+#footer-left{
+    width: 34%;
+    margin: 10px 0 0 15px;
+}
+
+.footer-right{
+    margin: 0 15px 0 0;
+}
+
+#moreinfo-contact{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    justify-content: end;
+    align-items: end;
+}
+.footer-line{
+    width: 0.4%;
+    height: 65px;
+    border: none;
+    background-color: #0d0d0d;
+    margin: -3px 10px 0 10px;
+}
+.space{
+    font-size: 5px;
+}
+
+/* -------------- NEWS PAGE ------------------- */
+#NewsPage{
+    background-color: #00001b;
+}
+#NewsPage a:hover{
+    opacity: 0.7;
+}
+#NewsPage a{
+    align-self: start;
+    text-align: left;
+    margin: 4% 0 0 9%;
+}
+#NP{
+    padding: 3px 7%;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    margin: 0 0 100px 0;
+}
+.new img{
+    width:85vw;
+    margin: 0 0 30px 0;
+    height: 70vh;
+}
+.backToNews{
+    width: 5%;
+    margin: 0 10px 0 0;
+}
+#date{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    align-self: start;
+}
+#title{
+    font-size: 32px;
+    font-weight: 400;
+    align-self: start;
+    margin: 50px 0;
+}
+
+#text a{
+    all: unset;
+}
+#text a:hover, #NewsPage a:hover{
+    opacity: 0.7;
+}
+#text{
+    margin: 0 60px 0 60px;
+    font-size: 18px;
+}
+#headerB{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*----------- show news ------- */
+.nothing{
+    all: unset;
+}
+
+/* ----------- ABOUT US ------------ */
+
+
+#aboutUs{
+    padding: 70px 130px;   
+}
+#aboutUs a:hover{
+    opacity: 0.7;
+}
+#aboutUsContent{
+    justify-content: end;
+    align-items:end;
+    align-content: end;
+    display: flex;
+    margin-top: 70px;
+    flex-direction:column;
+    
+}
+.ABC{
+    width: 55vw;
+}
+#phrase{
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+}
+#Pcredit{
+    font-size:22px;
+    text-align: right;
+    margin-top:30px;
+}
+
+.ABCLine{
+    width:68%;
+    margin: 80px 0;
+}
+#ABCText{
+    font-size:18px;
+}
+#Us{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.We{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    font-size: 22px;
+   
+}
+.OurName{
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    text-align: center;
+}
+.function{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    font-style: italic;
+}
+#abwp{
+    /* https://upload.wikimedia.org/wikipedia/commons/a/aa/Moon_2966.jpg */
+    background-image: url('');
+    background-size: cover;
+    background-color: #00010D;
+}
+#headerC{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#vector{
+    position: absolute;
+    margin: 100px 0 0 0; 
+    width: 20%;
+}
+/* ---------- CONTACT ------------- */
+#contact-body {
+    background-color: #00001b;
+}
+#contact-body a:hover {
+    opacity: 0.7;
+}
+#contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 5%;
+    gap: 5%;
+
+}
+
+#contact-form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+#card-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 25px;
+    background: #000000;
+    border-radius: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 10px 40px #160c0c56;
+    border: 2px solid white;
+}
+.textfieldcontact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.textfieldcontact > input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    background: #A49E9E;
+    color: #110E19;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.textfieldcontact > label {
+    margin-bottom: 5px;
+}
+.textfieldcontactdescription {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.textfieldcontactdescription > label {
+    margin-bottom: 5px;
+}
+
+.textfieldcontactdescription > input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    background: #A49E9E;
+    color: #110E19;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+
+.btn-send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 12px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+#contact-more {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 5%;
+}
+#contact-more > h1 {
+    margin-bottom: 40px;
+}
+#contact-more > img {
+    width: 20%;
+    margin-top: 40px;
+}
+
+/* ---------------- TERMS -------------- */
+#terms p{
+    text-align: justify;
+}
+#terms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#terms h1{
+    text-align: center;
+}
+#terms h2{
+    text-align: center;
+    font-style: italic;
+}
+#TermsContainer{
+    width: 60vw;
+    margin: 100px 0;
+}

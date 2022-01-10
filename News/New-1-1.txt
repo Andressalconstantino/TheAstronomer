@@ -1,0 +1,35 @@
+
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+<img src="https://i.guim.co.uk/img/media/e5b24e1f9fc4824c1183399c897b3c9e080f4c7f/120_0_3600_2160/master/3600.jpg?width=1020&quality=85&auto=format&fit=max&s=34dd2f17c54701810d203ff8a91f78e7">
+
+<span id="date">January 02, 2022</span>
+
+<span id="title">Space Travel in 2022</span>
+
+<span id="text">2022 holds from anti-asteroid defence systems to lunar missions, it promises to be an exciting year for space exploration.<br>
+Rockets - NASA has a new SLS (space launch system). Nasa plans to open again the solar system for humans to investigate instead of just robot probes.<br>
+According to the website "The Guardian":<br>
+"This time the crew will include at least one woman and the mission will mark the beginning of a programme aimed at establishing a lunar colony where astronauts would work on months-long missions and develop technologies that could be used by future colonies on Mars. A prime target for the first lunar outpost is Shackleton crater, near the moon’s south pole, which is believed to hold reservoirs of ice. Water will not only provide precious sustenance for astronauts, it can be exploited as a source of hydrogen and oxygen – by electrolysis – that can be combined as rocket fuel."
+<br><br>
+The moon - A programme based of robot missions will be started by NASA to contribute for the preparations for the plan of etablishing a lunar colony. This year, the first missions will begin, with the objective of having flotilla of robot spacecraft sent to the moon .<br>
+According to the website "The Guardian":<br>
+"Built by private companies with Nasa backing, these probes will attempt to map underground water deposits, study the moon’s deep interior and release robot rovers to investigate the lunar surface. Fledgling space company Astrobotic will send its newly designed Peregrine lander to Lacus Mortis – “the lake of death” – a plain of basaltic rock in the north-eastern part of the moon. It will carry 11 different payloads of instruments and will be followed by another US company, Intuitive Machines, which is sending a spacecraft carrying six payloads to Oceanus Procellarum, the Ocean of Storms".
+<br><br>
+Further Information <a href="https://www.theguardian.com/science/2022/jan/02/to-the-moon-and-beyond-what-2022-holds-for-space-travel"><u style="cursor: pointer;">here</u></a>.</span>
+    
+</div>
+</section>
+</main>

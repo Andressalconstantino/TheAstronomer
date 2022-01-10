@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Astronomer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body>
+    <main>
+        <div id="start">
+            <div id="header">
+                <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+                <ul id="menu">
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="index.html"><img src="img/logo.png"></a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <span class="beside-menu"><a id="loginuser" href="login.html">Sign In/<br>Sign Up</a></span>
+            </div>
+
+
+
+            <div id="title-about">
+                <h1 id="main-title">The Astronomer</h1>
+                <hr class="big-hr">
+                <h3 class="medium-text">Discover the cosmos! <br>Here you get the latest news about the universe fresh from the oven.</h3>
+            </div>
+            <div id="beside">
+                <div class="top"><button class="buttonLeft"><img src="img/ArrowLeft.png"></button></div>
+                <section id="main-news">
+
+                    <div class="news-card" id="card1">
+                        <img width="55%" src="https://static.scientificamerican.com/sciam/cache/file/BABAF988-CC63-4875-82C05929F33D8329_source.jpg?w=590&h=800&6605DA9E-01B7-4365-AA71D620822F8761" alt="">
+                        <h2 class="medium-text title-cards">Known Galaxies</h2>
+                        <br>
+                        <hr class="small-hr"> <br>
+                        <p class="small-text subtitle-cards">A galaxy is any of the <br>systems of stars and<br> interstellar matter that<br> make up the universe.</p>
+                    </div>
+                    <div class="news-card" id="card2">
+                        <img width="55%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/260px-Black_hole_-_Messier_87_crop_max_res.jpg" alt="">
+                        <h2 class="medium-text title-cards">Black Holes</h2>
+                        <br>
+                        <hr class="small-hr"> <br>
+                        <p class="small-text subtitle-cards">A black hole is a region<br> of spacetime where gravity<br> is so strong that nothing <br>can escape from it.</p>
+                    </div>
+                    <div class="news-card" id="card3">
+                        <img width="55%" src="https://www.nasa.gov/sites/default/files/thumbnails/image/spp_observingsun2_0_0.jpg" alt="">
+                        <h2 class="medium-text title-cards">NASA enters the <br>solar atmosphere</h2>
+                        <br>
+                        <hr class="small-hr"> <br>
+                        <p class="small-text subtitle-cards">A spacecraft has touched the <br>Sun, NASA’s Parker Solar Probe<br> has now flown through the Sun’s<br> upper atmosphere</p>
+                    </div>
+                    <div class="news-card" id="card4">
+                        <img width="55%" src="https://lh3.googleusercontent.com/_VZesw5O-D3IV5rBLBiRFZ_9XReFoLJ3i4gje818qJb4BKyKi9D8cD1BF_V2l-45d6S2IQnT5aCzWta8gtOzgfvJmg=w640-h400-e365-rj-sc0x00ffffff" alt="">
+                        <h2 class="medium-text title-cards">Weird things in <br> outer space</h2>
+                        <br>
+                        <hr class="small-hr"> <br>
+                        <p class="small-text subtitle-cards">Space is dominated by <br>invisible electromagnetic <br>forces that we typically don’t<br> feel. It’s also of matter that <br>we never experience on Earth.</p>
+                    </div>
+                    <div class="news-card" id="card5">
+                        <img width="55%" src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/04/1862/1048/jpegPIA24547-CROP.jpg?ve=1&tl=1" alt="">
+                        <h2 class="medium-text title-cards">2021 Review</h2>
+                        <br>
+                        <hr class="small-hr"> <br>
+                        <p class="small-text subtitle-cards">From commercial space race <br>to operations on the red planet,<br> space exploration was in the<br>  public spotlight.</p>
+                    </div>
+
+                </section>
+                <div class="top"><button class="buttonRight"><img src="img/ArrowRight.png"></button></div>
+            </div>
+        </div>
+        <section id="filtered-news">
+            <div class="filtered-news-position">
+                <div><h1>Humans in Space</h1></div><p class="space">&nbsp;</p>
+                <br>
+                <div class="filtered-news-card" id="11">
+                    <div id="T11" class="underTandT">
+                        <h3>Space Travel <br>in 2022</h3>
+                    </div>
+                    <div id="D11" class="underTandT desc">
+                        <h3>Space Travel <br>in 2022</h3>
+                        <p class="description">The exciting <br>space exploration missions for 2022</p>
+                                            <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://cff2.earth.com/uploads/2020/11/02100353/shutterstock_1480426817.jpg" alt="">
+                    
+                </div>
+                <div class="filtered-news-card" id="12">
+                    <div id="T12" class="underTandT">
+                        <h3>Journey to Mars</h3>    
+                    </div>
+                    <div id="D12" class="underTandT desc">
+                        <h3>Journey to Mars</h3>
+                        <p class="description">How NASA is preparing humans<br> for a journey to Mars </p><br>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://starwalk.space/gallery/images/mars-the-ultimate-guide/1920x1080.jpg" alt="">
+                </div>
+                <div class="filtered-news-card" id="13">
+                    <div id="T13" class="underTandT">
+                        <h3>Kessler Syndrome</h3>
+                    </div>
+                    <div id="D13" class="underTandT desc">
+                        <h3>Kessler Syndrome</h3>
+                        <p class="description">How runaway space <br>junk could trap humans on earth</p><br>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://images.theconversation.com/files/334631/original/file-20200513-156641-95sq2q.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop" alt="">
+                </div>
+                <div class="filtered-news-card" id="14">
+                    <div id="T14" class="underTandT">
+                        <h3>China's Space Plan</h3>
+                    </div>
+                    <div id="D14" class="underTandT desc">
+                        <h3>China's Space Plan</h3>
+                        <p class="description">China's ASTC has planned more than 40 space launches for 2022.</p>
+                            <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://pbs.twimg.com/media/EN1r4oAWoAAaIuV?format=jpg&name=large" alt="">
+                </div>
+            </div>
+            <div class="filtered-news-position">
+                <div><h1>Earth</h1></div><p class="space">&nbsp;</p>
+                <br>
+                <div class="filtered-news-card" id="21">
+                    <div id="T21" class="underTandT">
+                        <h3>Asteroid set to fly-by earth</h3>
+                    </div>
+                    <div id="D21" class="underTandT desc">
+                        <h3>Asteroid set to <br>fly-by earth</h3>
+                        <p class="description">The rock will pass earth at a distance of 1.98 million km.</p>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://imageresizer.static9.net.au/7P2h9z2ki_MuBet_qDs0eUHkeSE=/0x205:4644x2817/800x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F98f7cf02-1191-4edf-aeb3-797ce1424354" alt="">
+                </div>
+                <div class="filtered-news-card" id="22">
+                    <div id="T22" class="underTandT">
+                        <h3>Earth Conditions</h3>
+                    </div>
+                    <div id="D22" class="underTandT desc">
+                        <h3>Earth Conditions</h3>
+                        <p class="description">The Earth may have been more inhospitable to life than scientists previously thought.</p>
+                            <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://www.collinsdictionary.com/images/full/earth_204717067.jpg" alt="">
+                </div>
+                <div class="filtered-news-card" id="23">
+                    <div id="T23" class="underTandT">
+                        <h3>Earth Climate Change</h3>
+                    </div>
+                    <div id="D23" class="underTandT desc">
+                        <h3>Earth Climate Change</h3>
+                        <p class="description">There have been a large variation in the Earth's climate.</p>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://thelogicalindian.com/h-upload/2020/11/04/184734-eaweb.jpg" alt="">
+                </div>
+                <div class="filtered-news-card" id="24">
+                    <div id="T24" class="underTandT">
+                        <h3>Pacific <br>Tic-Tac-Toe</h3>
+                    </div>
+                    <div id="D24" class="underTandT desc">
+                        <h3>Pacific <br>Tic-Tac-Toe</h3>
+                        <p class="description">The lines in the ocean are a common atmospheric feature</p>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://eoimages.gsfc.nasa.gov/images/imagerecords/149000/149260/pacific_vir_2021341.jpg" alt="">
+                </div>
+            </div>
+            <div class="filtered-news-position">
+                <div><h1>Space Tech</h1></div><p class="space">&nbsp;</p>
+                <br>
+                <div class="filtered-news-card" id="31">
+                    <div id="T31" class="underTandT">
+                        <h3>Webb Telescope</h3><p class="space">&nbsp;</p>
+                    </div>
+                    <div id="D31" class="underTandT desc">
+                        <h3>Webb Telescope</h3><p class="space">&nbsp;</p>
+                        <p class="description">Webb will show us things never before seen by any other telescope </p>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="http://astronomy.com/~/media/D2C5AFBD824E4C54B592FA6376CECE3C.jpg" alt="">
+                </div>
+                <div class="filtered-news-card" id="32">
+                    <div id="T32" class="underTandT">
+                        <h3>2022 Space Technologies</h3>
+                    </div>
+                    <div id="D32" class="underTandT desc">
+                        <h3>2022 Space Technologies</h3>
+                        <p class="description">The Five Biggest Space Technology Trends For 2022</p>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F61b2e75e25fd41e930e1cfc8%2FThe-Five-Biggest-Space-Technology-Trends-for-2022%2F960x0.jpg%3Ffit%3Dscale" alt="">
+                </div>
+                <div class="filtered-news-card" id="33">
+                    <div id="T33" class="underTandT">
+                        <h3>Redwire Corporation</h3>
+                    </div>
+                    <div id="D33" class="underTandT desc">
+                        <h3>Redwire Corporation</h3>
+                        <p class="description">The Face Of Space Exploration Over The Next Decade</p>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1321598130/webp_medium_image_1321598130.webp" alt="">
+                </div>
+                <div class="filtered-news-card" id="34">
+                    <div id="T34" class="underTandT">
+                        <h3>High-Tech <br>Sleeping Bag</h3>
+                    </div>
+                    <div id="D34" class="underTandT desc">
+                        <h3>High-Tech <br>Sleeping Bag</h3>
+                        <p class="description">In space, astronauts can suffer from vision problems. </p>
+                        <p class="dateAndTime">19:49 - 02/01/2022</p>
+                    </div>
+                    <img width="15%" src="https://images.indianexpress.com/2021/12/sleeping-bag.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <pre class="inner" id="generalTitle">
+            <h1>Solar System</h1>Hover over the Planets
+        </pre>
+        <pre class="inner" id="sunTitle">
+            <h1>The Sun</h1>Click for more info
+        </pre>
+        <pre class="inner" id="mercuryTitle">
+            <h1>Mercury</h1>Click for more info
+        </pre>
+        <pre class="inner" id="venusTitle">
+            <h1>Venus</h1>Click for more info
+        </pre>
+        <pre class="inner" id="earthTitle">
+            <h1>Earth</h1>Click for more info
+        </pre>
+        <pre class="inner" id="MarsTitle">
+            <h1>Mars</h1>Click for more info
+        </pre>
+        <pre class="inner" id="jupiterTitle">
+            <h1>Jupiter</h1>Click for more info
+        </pre>
+        <pre class="inner" id="saturnTitle">
+            <h1>Saturn</h1>Click for more info
+        </pre>
+        <pre class="inner" id="uranusTitle">
+            <h1>Uranus</h1>Click for more info
+        </pre>
+        <pre class="inner" id="neptuneTitle">
+            <h1>Neptune</h1>Click for more info
+        </pre>
+        <section id="animation">
+
+            <div class="box_sol"></div>
+            <div class="box_mercurio"></div>
+            <div class="box_venus"></div>
+            <div class="box_terra"></div>
+            <div class="box_marte"></div>
+            <div class="box_jupter"></div>
+            <div class="box_saturno"><div class="ring"></div></div>
+            <div class="box_urano"></div>
+            <div class="box_netuno"></div>
+        </section>
+        <section class="aboutPlanets" id="TheSun">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age: &nbsp; 4,603 × 10^9 years
+                Mass: &nbsp; 1,989 × 10^30 kg
+                Gravity: &nbsp; 274 m/s²
+                Rotation:&nbsp; Counterclockwise
+                Temperature: &nbsp; 5504,85º C
+                Classification:&nbsp; G2 V star
+                Distance to Earth: &nbsp; 149.600.000 km
+
+            </pre>
+            <h1>The Sun</h1>
+            <img width="300px" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4ad4afd9-1b7c-4043-8820-8322dc919c18/d6r3ze7-ede358d7-7d74-4d99-a023-c41de93b093b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhZDRhZmQ5LTFiN2MtNDA0My04ODIwLTgzMjJkYzkxOWMxOFwvZDZyM3plNy1lZGUzNThkNy03ZDc0LTRkOTktYTAyMy1jNDFkZTkzYjA5M2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.wx1PpjChng962qEruw1OQ9FNbOWpxUFz1yFPZQ-t84M">
+        </section>
+        <section class="aboutPlanets" id="Mercury">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age:&nbsp; 4,503 × 10^9 years
+                Mass:&nbsp; 3,285 × 10^23 kg
+                Gravity:&nbsp; 3,7 m/s²
+                Rotation:&nbsp; Counterclockwise
+                Temperature:&nbsp; 178,889 °C
+                Classification:&nbsp; Terrestrial World
+                Distance to Earth:&nbsp; 77 million km
+            </pre>
+            <h1>Mercury</h1>
+            <img width="300px" src="https://www.nicepng.com/png/full/217-2171911_3d-mercury-planet-mercury.png">
+        </section>
+        <section class="aboutPlanets" id="Venus">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age:&nbsp; 4,503 × 10^9 years
+                Mass:&nbsp; 4,867 × 10^24 kg
+                Gravity:&nbsp; 8,87 m/s²
+                Rotation:&nbsp; Clockwise
+                Temperature:&nbsp; 482° C
+                Classification:&nbsp; Terrestrial World
+                Distance to Earth:&nbsp; 61 million kilometers
+            </pre>
+            <h1>Venus</h1>
+            <img width="300px" src="https://www.pngplay.com/wp-content/uploads/13/Venus-PNG-Clipart-Background.png">
+        </section>
+        <section class="aboutPlanets" id="Earth">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age:&nbsp; 4,543 × 10^9 years
+                Mass:&nbsp; 5.97237×1024 kg
+                Gravity:&nbsp; 9,807 m/s²
+                Rotation:&nbsp; Counterclockwise
+                Temperature:&nbsp; 14.9°C
+                Classification:&nbsp; Terrestrial World
+            </pre>
+            <h1>Earth</h1>
+            <img width="300px" src="https://world3dmap.com/wp-content/uploads/2021/07/3d-earth-Basic.png">
+        </section>
+        <section class="aboutPlanets" id="Mars">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age:&nbsp; 4,603 × 10^9 years
+                Mass:&nbsp; 6,39 × 10^23 kg
+                Gravity:&nbsp; 3,721 m/s²
+                Rotation:&nbsp; Counterclockwise
+                Temperature:&nbsp; -63° C
+                Classification:&nbsp; Terrestrial World
+                Distance to Earth:&nbsp; 54.6 million kilometers
+            </pre>
+            <h1>Mars</h1>
+            <img width="300px" src="https://www.pngkit.com/png/full/20-203388_mars-mars-transparent.png">
+        </section>
+        <section class="aboutPlanets" id="Jupiter">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age:&nbsp; 4,603 × 10^9 years
+                Mass:&nbsp; 1,898 × 10^27 kg
+                Gravity:&nbsp; 24,79 m/s²
+                Rotation:&nbsp; Counterclockwise
+                Temperature:&nbsp; -145º Celsius
+                Classification:&nbsp; Gas Giant
+                Distance to Earth:&nbsp; 588 million kilometers
+            </pre>
+            <h1>Jupiter</h1>
+            <img width="300px" src="img/jupiter.png">
+        </section>
+        <section class="aboutPlanets" id="Saturn">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age:&nbsp; 4,503 × 10^9 years
+                Mass:&nbsp; 5,683 × 10^26 kg
+                Gravity:&nbsp; 10,44 m/s²
+                Rotation:&nbsp; Counterclockwise
+                Temperature:&nbsp; -178º Celsius
+                Classification:&nbsp; Gas Giant
+                Distance to Earth:&nbsp; 1.2 billion km
+            </pre>
+            <h1>Saturn</h1>
+            <img width="450px" src="https://www.nicepng.com/png/full/331-3319031_saturn-and-rings-saturn-transparent-background.png">
+        </section>
+        <section class="aboutPlanets" id="Uranus">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age:&nbsp; 4,503 × 10^9 years
+                Mass:&nbsp; 8,681 × 10^25 kg
+                Gravity:&nbsp; 8,87 m/s²
+                Rotation:&nbsp; Counterclockwise
+                Temperature:&nbsp; -213,889º Celsius
+                Classification:&nbsp; Ice Giant
+                Distance to Earth:&nbsp; 2.6 billion kilometers
+            </pre>
+            <h1>Uranus</h1>
+            <img width="300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/3D_Uranus.png/588px-3D_Uranus.png">
+        </section>
+        <section class="aboutPlanets" id="Neptune">
+            <pre>
+                <img class="backToPlanets" src="img/ArrowLeft.png">
+                Age:&nbsp; 4,503 × 10^9 years
+                Mass:&nbsp; 1,024 × 10^26 kg
+                Gravity:&nbsp; 11,15 m/s²
+                Rotation:&nbsp; Counterclockwise
+                Temperature:&nbsp; -225º Celsius
+                Classification:&nbsp; Ice Giant
+                Distance to Earth:&nbsp; 4.3 billion kilometers
+            </pre>
+            <h1>Neptune</h1>
+            <img width="300px" src="https://www.seekpng.com/png/full/2-26520_neptune-neptune-transparent-background.png">
+        </section>
+        <section id="video">
+                <iframe id="video-window" width="50%" height="75%"
+                    src="https://www.youtube.com/embed/LkaLfbuB_6E?controls=0&showinfo=0"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            <h2 id="videotitle">NASA's Parker Solar Probe Touches The Sun For The First Time</h2>
+            <h3 id="videodescription">For the first time in history, a spacecraft hastouched  <br>the Sun. NASA's Parker Solar Probe has now flown through <br>the Sun's upper atmosphere – the corona – and sampled <br>particles and magnetic fields there. </h3>
+        </section>
+
+        <section id="banner-moon">
+            <div class="moon">
+                <img src="img/New_moon.png" alt="lua">
+                <p class="moon-title">The New Moon</p><br>
+            </div>
+            <div class="moon">
+                <img src="img/Waxing_crescent_moon.png" alt="lua">
+                <p class="moon-title">The Waxing<br>Crescent Moon</p>
+            </div>
+            <div class="moon">
+                <img src="img/First_quarter_moon.png" alt="lua">
+                <p class="moon-title">The First Quarter<br>Moon</p>
+            </div>
+            <div class="moon">
+                <img src="img/Waxing_gibbous_moon.png" alt="lua">
+                <p class="moon-title">The Waxing<br>Gibbous Moon</p>
+            </div>
+            <div class="moon">
+                <img src="img/Full_moon.png" alt="lua">
+                <p class="moon-title">The Full Moon</p><br>
+            </div>
+            <div class="moon">
+                <img src="img/Waning_gibbous_moon.png" alt="lua">
+                <p class="moon-title">The Waning<br>Gibbous Moon</p>
+            </div>
+            <div class="moon">
+                <img src="img/Third_quarter_moon.png" alt="lua">
+                <p class="moon-title">The Third<br>Quarter Moon</p>
+            </div>
+            <div class="Lastmoon">
+                <img src="img/Waning_crescent_moon.png" alt="lua">
+                <p class="moon-title">The Waning<br>Crescent Moon</p> 
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer-left">
+            <div id="moreinfocolumns">
+                <hr class="footer-line">
+                <div>
+                    <a href="AboutUs.html">About Us</a><br><br>
+                    <a href="contact.html">Contact</a>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <hr class="footer-line">
+                <div>
+
+                    <a href="Terms.html">Terms</a><br><br>
+                    <a href="Privacy.html">Privacy</a>
+                </div>
+            </div>
+            <div id="moreinfosocialnetworks">
+                <img width="9%" src="https://cdn-icons-png.flaticon.com/512/179/179319.png" alt="facebook">
+                &nbsp;&nbsp;
+                <img width="9%" src="https://toppng.com/uploads/preview/instagram-logo-circle-11549679754rhbcorxntv.png"
+                    alt="instagram">
+                &nbsp;&nbsp;
+                <img width="9%" src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="twitter">
+            </div>
+        </div>
+        <div id="moreinfo-center">
+            <img src="img/logoFooter.png" alt="The Astronomer logo">
+            <p>&nbsp; </p>
+            <p class="copyrightsandcnpj"> 2052 The Astronomer</p>
+            <p class="space">&nbsp;</p>
+            <p class="copyrightsandcnpj">CNPJ: 48.958.696/0001-27</p>
+
+        </div>
+        <div class="footer-right" id="moreinfo-contact">
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13524.179438098494!2d-52.161541!3d-32.0680354!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb4889911365b87c!2sUniversidade%20Federal%20do%20Rio%20Grande%2C%20Campus%20Carreiros!5e0!3m2!1spt-BR!2sbr!4v1640734370694!5m2!1spt-BR!2sbr"
+                width="300" height="130" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p class="space">&nbsp;</p>
+            <p>Av. Itália, km 8 - Carreiros - Rio Grande - RS </p>
+            <p class="space">&nbsp;</p>
+            <p>+55 (52) 9 9786-5845 </p>
+            <p class="space">&nbsp;</p>
+            <p>contact@ta.com</p>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/149000/149260/pacific_vir_2021341.jpg">
+
+<span id="date">December 29, 2022</span>
+
+<span id="title">Pacif Tic-Tac-Toe</span>
+
+<span id="text">Even tho the lines in the ocean may resemble a tic-tac-toe game, they are an atmospheric feature. The lines are from condensed water vapor around tiny particles from ships.<br>
+According to the website "Earth Observatory":<br>
+"Trails of aerosol pollution from ships are present with or without the clouds. But the presence of these numerous tiny particles can become more apparent in natural-color images when the particles interact with low-level clouds and cause them to brighten. This happens because aerosols allow more and smaller cloud droplets to form, providing more surfaces to reflect light.<br><br>
+
+Scientists have been studying the phenomenon for decades, teasing out the complex interactions between aerosols and clouds to decipher what those interactions mean for climate change. For instance, scientists want to know the extent that ship tracks can lead to cooling across the planet.<br><br>
+
+In recent years, scientists have been using machine learning to help identify ship tracks—some of which can go undetected by human eyes—and to classify various cloud types around the planet. The technique is helping to grow the collection of cloud images available for scientific study"<br><br>
+
+
+Further information <a href="https://earthobservatory.nasa.gov/images/149260/pacific-tic-tac-toe"><u style="cursor: pointer;">here</u><a></span>
+
+
+</div>
+</section>
+</main>

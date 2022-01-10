@@ -1,0 +1,37 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+<img src="https://www.leeds.ac.uk/corporate/images/RESIZEDpress_release_cover_image_1.jpg">
+
+<span id="date">January 05, 2022</span>
+
+<span id="title">Earth Conditions</span>
+
+<span id="text">According to recent computer simulations, researchers believe that the level of UV radiation, that can destroy and damage biologically necessary molecules like proteins, on Erath's surface could have been higher, up to ten times higher.<br><br>
+
+According to the website "University of Leeds":<br>
+"Ozone forms as a result of sunlight and chemical reactions – and its concentration is dependent on the level of oxygen in the atmosphere.<br><br>
+
+For the last 40 years, scientists have believed that the ozone layer was able to shield life from harmful UV radiation when the level of oxygen in the atmosphere reached about 1% relative to the present atmospheric level.<br><br>
+
+The new modelling challenges that assumption. It suggests the level of oxygen needed may have been much higher, perhaps 5% to 10% of present atmospheric levels.<br><br>
+
+As a result, there were periods when UV radiation levels at the Earth’s surface were much greater, and this could have been the case for most of the Earth’s history"<br><br>
+
+Further information <a href="https://www.leeds.ac.uk/news-science/news/article/4994/study-reveals-hostile-conditions-on-earth-as-life-evolved"><u style="cursor: pointer;">here</u></a>.</span>
+
+</div>
+</section>
+</main>

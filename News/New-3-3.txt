@@ -1,0 +1,31 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+<img src="https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1321598130/webp_medium_image_1321598130.webp">
+
+<span id="date">January 03, 2022</span>
+
+<span id="title">Redwire Corporation</span>
+
+<span id="text">Redwire Corporation is a space infrastructure technology and aerospace manufacturer company from america, and according to the website "Seeking Alpha":<br>
+"Redwire Corporation (RDW) is well-positioned to cash in on space infrastructural developments expected through the decade due to its resilient technological solutions. The company has combined satellite manufacturing components with plant science experiments that are necessary for testing life support mechanisms outside earth.
+RDW deployed 12 launches into space in 2021 marking an exemplary turnaround from the adverse effects of the pandemic. Through its conglomerate of acquisitions, Q2 2020 had seen the company record significant losses at -$2.98 million. Revenues estimates for Q1 2021 are poised to reach $36 million due to Redwire's strong performance. The company is confident of attaining $163 million in the full-year revenue outlook by the end of 2021.<br>
+Redwire's agreement with companies such as SpaceX and John Hopkins Applied Physics Laboratory helped it to work with NASA on profitable long-term deals. The space exploration and national defense market are headed for momentous growth into the next decade. In my view, Redwire is well-positioned to cash in on new space-tech developments including the use of AI, material simulation, and satellite manufacturing. We are likely to see an increase in the volumes of satellite launches and a reduction in launch costs due to high competition levels. As stated, Redwire is the seventh company to enter a SPAC deal in the aerospace market in the US. In my opinion, RDW is a buy and hold with the share price trading at a bargain into 2022".
+<br><br>
+Further information <a href="https://seekingalpha.com/article/4477721-redwire-corporation-the-face-of-space-exploration"><u style="cursor: pointer;">here</u><a></span>
+
+</div>
+</section>
+</main>

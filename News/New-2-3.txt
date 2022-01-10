@@ -1,0 +1,32 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+<img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/36B9/production/_122490041_iss065e432549.jpg">
+
+<span id="date">December 12, 2022</span>
+
+<span id="title">Earth Climate Change</span>
+
+<span id="text">When long-term shifts in temperature happen and the weather patterns it is called climate change, lately it have been caused by human activities, and the effects are irreversible.<br>
+According to the website "Climate Nasa":<br>
+"Scientists have high confidence that global temperatures will continue to rise for decades to come, largely due to greenhouse gases produced by human activities. The Intergovernmental Panel on Climate Change (IPCC), which includes more than 1,300 scientists from the United States and other countries, forecasts a temperature rise of 2.5 to 10 degrees Fahrenheit over the next century.<br>
+Global climate is projected to continue to change over this century and beyond. The magnitude of climate change beyond the next few decades depends primarily on the amount of heat-trapping gases emitted globally, and how sensitive the Earth’s climate is to those emissions."<br>
+Some of the main changes are: more droughts and heat waves, hurricanes will become stronger and more intense, sea level will rise 1-8 feet by 2100 and arctic will likely become ice-free.<br><br>
+
+Further information <a href="https://climate.nasa.gov/"><u style="cursor: pointer;">here</u></a></span>
+
+</div>
+</section>
+</main>

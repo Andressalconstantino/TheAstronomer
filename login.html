@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loginstyle.css">
+    <title>The Astronomer Login</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body>
+    <div id="start">
+        <div id="header">
+            <span class="beside-menu"><img width="30%" style="margin-bottom: -5px;" src="img/lupa.svg">Search</span>
+            <ul id="menu">
+                <li><a href="">About Us</a></li>
+                <li><a href="index.html"><img src="img/logo.png"></a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <span class="beside-menu"><a href="register.html">Sign Up</a></span>
+        </div>
+
+        <!-- TELA DE LOGIN -->
+
+        <div class="main-login">
+            <div class="left-login">
+                <h1>Sign in <br> and stay informed of top astronomy news</h1>
+            </div>
+            <div class="right-login">
+            <div class="card-login">
+                <h1>Login</h1>
+                <div id="msgError">
+
+                </div>
+
+                <div class="textfield">
+                    <label for="usernameLabel" id="usernameLabel">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Username">
+                </div>
+                <div class="textfield">
+                    <label for="Password" id="passwordLabel">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <button onclick="enter()" class="btn-login">Login</button>
+                <div><p>Not registered? <a href="register.html">Click here!</a></p></div>
+            </div>
+            </div>
+        </div>
+    <script src="scriptlogin.js"></script>
+    </div>
+    <footer>
+        <div id="footer-left">
+            <div id="moreinfocolumns">
+                <hr class="footer-line">
+                <div>
+                    <a href="AboutUs.html">About Us</a><br><br>
+                    <a href="contact.html">Contact</a>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <hr class="footer-line">
+                <div>
+
+                    <a href="Terms.html">Terms</a><br><br>
+                    <a href="Privacy.html">Privacy</a>
+                </div>
+            </div>
+            <div id="moreinfosocialnetworks">
+                <img width="9%" src="https://cdn-icons-png.flaticon.com/512/179/179319.png" alt="facebook">
+                &nbsp;&nbsp;
+                <img width="9%" src="https://toppng.com/uploads/preview/instagram-logo-circle-11549679754rhbcorxntv.png"
+                     alt="instagram">
+                &nbsp;&nbsp;
+                <img width="9%" src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="twitter">
+            </div>
+        </div>
+        <div id="moreinfo-center">
+            <img src="img/logoFooter.png" alt="The Astronomer logo">
+            <p>&nbsp; </p>
+            <p class="copyrightsandcnpj"> 2052 The Astronomer</p>
+            <p class="space">&nbsp;</p>
+            <p class="copyrightsandcnpj">CNPJ: 48.958.696/0001-27</p>
+
+        </div>
+        <div class="footer-right" id="moreinfo-contact">
+            <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13524.179438098494!2d-52.161541!3d-32.0680354!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb4889911365b87c!2sUniversidade%20Federal%20do%20Rio%20Grande%2C%20Campus%20Carreiros!5e0!3m2!1spt-BR!2sbr!4v1640734370694!5m2!1spt-BR!2sbr"
+                    width="300" height="130" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p class="space">&nbsp;</p>
+            <p>Av. Itália, km 8 - Carreiros - Rio Grande - RS </p>
+            <p class="space">&nbsp;</p>
+            <p>+55 (52) 9 9786-5845 </p>
+            <p class="space">&nbsp;</p>
+            <p>contact@ta.com</p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

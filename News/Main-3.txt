@@ -1,0 +1,32 @@
+
+
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+<img src="https://www.nasa.gov/sites/default/files/thumbnails/image/parker_close_to_sun.png">
+
+<span id="date">December 18, 2021</span>
+
+<span id="title">NASA enters the solar atmosphere</span>
+
+<span id="text">A spacecraft flown through the sun upper atmosphere. NASA's Parker Solar Probe touched the sun. According to the website "Lake County News": ""Parker Solar Probe ‘touching the Sun’ is a monumental moment for solar science and a truly remarkable feat," said Thomas Zurbuchen, the associate administrator for the Science Mission Directorate at NASA Headquarters in Washington. "Not only does this milestone provide us with deeper insights into our Sun's evolution and its impacts on our solar system, but everything we learn about our own star also teaches us more about stars in the rest of the universe.”<br><br>
+
+As it circles closer to the solar surface, Parker is making new discoveries that other spacecraft were too far away to see, including from within the solar wind — the flow of particles from the Sun that can influence us at Earth. In 2019, Parker discovered that magnetic zigzag structures in the solar wind, called switchbacks, are plentiful close to the Sun. But how and where they form remained a mystery. Halving the distance to the Sun since then, Parker Solar Probe has now passed close enough to identify one place where they originate: the solar surface".<br><br>
+
+Further information <a href="https://www.lakeconews.com/news/71236-space-news-nasa-enters-the-solar-atmosphere-for-the-first-time-bringing-new-discoveries"><u style="cursor: pointer;">here</u><a></span>
+
+</div>
+</section>
+</main>

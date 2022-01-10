@@ -1,0 +1,32 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+
+<img src="https://cdn.mos.cms.futurecdn.net/8SjHCeNczRTuYgyyBdpBcF.jpg">
+
+<span id="date">December 11, 2021</span>
+
+<span id="title">Weird things in outer space</span>
+
+<span id="text">The universe is weird, but it still can surprise you, invisible electromagnetic forces dominate the space, strange types of matter that we dont have in earth are all around it. Five weird things in outer space are Plasma, Extreme Temperatures, Cosmic Alchemy, Magnetic Explosions, Supersonic Shocks. According to the website "Lake County News": "On the Sun, magnetic fields launch solar flares and direct belches of plasma, known as the solar wind, that travel across the solar system. When the solar wind reaches Earth, it can drive energetic processes, like the auroras and space weather, which if strong enough, can damage satellites and telecommunications.<br><br>
+From Siberia to the Sahara, Earth experiences an extensive range of temperatures. Records exist as high as 134°F and all the way down to -129°F (57°C to -89°C). But what we consider extreme on Earth is average in space. On planets without an insulating atmosphere, temperatures wildly fluctuate between day and night. Mercury regularly sees days around 840°F (449°C) and frigid nights as low as -275°F (-171°C).<br><br>
+
+And in space itself, some spacecraft experience temperature differences of 60°F (33°C) just between their sunlit and shady sides. That would be like having a glass of water in the shade freeze on a hot summer day! NASA’s Parker Solar Probe, at closest approach to the Sun, will experience differences over 2,000 degrees".<br><br>
+
+Further information <a href="https://www.lakeconews.com/news/71165-space-news-five-weird-things-that-happen-in-outer-space"><u style="cursor: pointer;">here</u><a></span>
+
+</div>
+</section>
+</main>

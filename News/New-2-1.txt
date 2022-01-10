@@ -1,0 +1,36 @@
+<main id="NewsPage">
+    <div id="headerB">
+        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <ul id="menu">
+            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="index.html"><img src="img/logo.png"></a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
+    </div>
+    <a href="index.html"> <img class="backToNews" src="img/ArrowLeft.png"> Back to News</a>
+<section id="NP">
+
+    <div class="new">
+
+<img src="https://imageresizer.static9.net.au/7P2h9z2ki_MuBet_qDs0eUHkeSE=/0x205:4644x2817/800x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F98f7cf02-1191-4edf-aeb3-797ce1424354">
+
+<span id="date">January 06, 2022</span>
+
+<span id="title">Asteroid set to fly-by earth</span>
+
+<span id="text">The asteroid (7482) 1994 PC1 which is 3 times the Empire State Building's size is set to fly-by earth on january 18 at a distance of around 1.98 million km away.<br>
+According to the website "9News":<br>
+"If an asteroid over 140 metres in diameter impacted Earth, it would release an amount of energy at least a thousand times greater than the first atomic bomb, research from the Davidson Institute of Science found.
+But to wipe out civilisation, one would have to be much bigger.<br>
+Planetary scientist at the University of Queensland Trevor Ireland previously told 9news.com.au civilisation-ending asteroids would have to measure more than a kilometre in diameter, at least, to cause an "extinction-level" event.<br>
+The asteroid that wiped out the dinosaurs and formed the Chicxulub crater in Mexico is estimated to have been around 9.6 kilometres in diameter.<br>
+"There's about a million one kilometre asteroids in the asteroid belt," Professor Ireland said.
+"The likelihood of one of those suddenly meandering down to Earth is very remote."<br>
+NASA has previously stated Earth will not be at risk from a PHO for more than 100 year, when Asteroid Bennu completes a fly-by."<br><br>
+
+Further information <a href="https://www.9news.com.au/world/space-news-asteroid-nearly-three-times-the-size-of-the-empire-state-building-to-zip-by-earth/6bd85418-58b0-4716-808e-fa96bf056ec3"><u style="cursor: pointer;">here</u></a></span>
+
+</div>
+</section>
+</main>
