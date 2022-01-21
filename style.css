@@ -871,6 +871,11 @@ footer a{
     background-size: cover;
     background-color: #00010D;
 }
+#side-image{
+    width:20%;
+    position: absolute;
+    margin-top:5%
+}
 #headerC{
     width: 100%;
     display: flex;
