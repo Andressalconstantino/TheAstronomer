@@ -846,6 +846,7 @@ footer a{
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
+    margin-right: -50px;
 }
 .We{
     justify-content: center;
@@ -853,7 +854,13 @@ footer a{
     display: flex;
     flex-direction:column;
     font-size: 22px;
+    width: 30%;
    
+}
+.We img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
 }
 .OurName{
     margin: 0 0 20px 0;
