@@ -924,7 +924,7 @@ footer a{
     align-items: center;
     flex-direction: column;
     padding: 20px 25px;
-    background: #000000;
+    background: #FFF;
     border-radius: 20px;
     margin-left: 30px;
     box-shadow: 0px 10px 40px #160c0c56;
@@ -1011,10 +1011,11 @@ footer a{
 }
 #contact-more > h1 {
     margin-bottom: 40px;
+    margin-top: -60px;
 }
 #contact-more > img {
-    width: 20%;
-    margin-top: 40px;
+    width: 60%;
+    margin-top: -70px;
 }
 
 /* ---------------- TERMS -------------- */
