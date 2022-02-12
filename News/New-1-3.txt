@@ -1,11 +1,11 @@
 
 <main id="NewsPage">
     <div id="headerB">
-        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <div href="search.html" class="search-link"><span class="beside-menu"><img width="30%" style="margin-bottom: -5px;" src="img/lupa.svg">Search</span></div>       
         <ul id="menu">
-            <li><a href="">About&nbsp;Us</a></li>
+            <li><a href="AboutUs.html">About&nbsp;Us</a></li>
             <li><a href="index.html"><img src="img/logo.png"></a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         <span class="beside-menu"><a id="loginuser" href="login.html">Sign&nbsp;In/&nbsp;&nbsp;<br> Sign Up</a></span>
     </div>

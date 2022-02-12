@@ -146,7 +146,7 @@ $(document).ready(function (){
         $('.aboutPlanets').css('display', 'none');
         $('#animation').css('display', 'flex');
         $('.inner').css('opacity', '1');
-    })
+    });
     /* --------------------------------------------- */
 
 
@@ -154,18 +154,19 @@ $(document).ready(function (){
 
 /*----------------- USER LOGIN -------------------*/
 
-if(localStorage.getItem("token")!=null) {
-    let userLogin= JSON.parse(localStorage.getItem("userLogin"))
+    if(localStorage.getItem("token")!=null) {
+        let userLogin= JSON.parse(localStorage.getItem("userLogin"));
 
-    let logado = document.querySelector("#loginuser")
+        let logado = document.querySelector("#loginuser");
 
-    logado.innerHTML = `Hello ${userLogin.username}! <button onclick="logout()" class="btn-logout">Logout</button>`
-}
-function logout(){
-    localStorage.removeItem("token")
-    localStorage.removeItem("userlogin")
-    window.location.href="login.html"
-}
+        logado.innerHTML = `Hello ${userLogin.username}! <button onclick="logout()" class="btn-logout">Logout</button>`;
+    }
+    $('.btn-logout').click(logout);
+    function logout(){
+        localStorage.removeItem("token");
+        localStorage.removeItem("userlogin");
+        logado.innerHTML = `Sign In/<br>Sign Up`;
+    }
 
     /* ------------ ALL NEWS ------------------------- */
     $('#card1').prop('id', 'leftUp').click(function (){

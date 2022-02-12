@@ -183,6 +183,7 @@ a{
     font-size: 18px;
     justify-content: center;
     align-content: center;
+    line-height: 1.3;
 }
 .copyrightsandcnpj{
     font-size: 15px;
@@ -682,7 +683,12 @@ footer a{
     display: flex;
     flex-direction: row;
 }
-
+#moreinfosocialnetworks img{
+    cursor: pointer;
+}
+#moreinfosocialnetworks img:hover{
+    opacity: 0.9;
+}
 #moreinfo{
     display: flex;
     flex-direction: row;
@@ -788,6 +794,7 @@ footer a{
 #text{
     margin: 0 60px 0 60px;
     font-size: 18px;
+    line-height: 1.4;
 }
 #headerB{
     width: 100%;
@@ -841,6 +848,7 @@ footer a{
 }
 #ABCText{
     font-size:18px;
+    line-height: 1.5;
 }
 #Us{
     display: flex;
@@ -905,11 +913,10 @@ footer a{
 }
 #contact{
     width: 100%;
-    height: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    align-content: flex-start;
+    justify-content: space-evenly;
     margin-top: 5%;
     gap: 5%;
 
@@ -917,114 +924,217 @@ footer a{
 
 #contact-form {
     width: 50%;
-    height: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    padding: 10px;
-}
-#card-form {
-    width: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    align-content: center;
+}
+#contact-locked-screen {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    background-image: url("img/backgroundIpad.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #160c0c56;
+    border: 25px solid white;
+    border-bottom: 45px solid white;
+    
+}
+
+#contact-form-screen {
+    width: 50%;
+    height: 90%;
+    display: none;
     flex-direction: column;
     padding: 20px 25px;
-    background: #FFF;
+    background-image: url("img/backgroundIpad2.png");
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
-    margin-left: 30px;
     box-shadow: 0px 10px 40px #160c0c56;
-    border: 2px solid white;
+    border: 25px solid white;
+    border-bottom: 45px solid white;
+    justify-content: space-between;
+    animation: appear 1s;
 }
-.textfieldcontact {
-    width: 100%;
+#contact-header{
+    height:1%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: center;
-    justify-content: center;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-.textfieldcontact > input {
-    width: 100%;
-    border: none;
-    padding: 15px;
-    background: #A49E9E;
-    color: #110E19;
-    font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
-    outline: none;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
-.textfieldcontact > label {
-    margin-bottom: 5px;
-}
-.textfieldcontactdescription {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: center;
-    justify-content: center;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-.textfieldcontactdescription > label {
-    margin-bottom: 5px;
-}
-
-.textfieldcontactdescription > input {
-    width: 100%;
-    border: none;
-    padding: 15px;
-    background: #A49E9E;
-    color: #110E19;
-    font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
-    outline: none;
-    box-sizing: border-box;
-    padding-bottom: 40px;
-    border-radius: 5px;
-}
-
-.btn-send {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 7%;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    width: 20%;
-    padding: 12px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    cursor: pointer;
+    align-content: center;
 }
-
+#contact-center{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+#contact-form-form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 7%;
+}
+#contact-header img{
+    width:35%;
+}
+#contact-center img{
+    width: 45%;
+}
+#contact-form-form input, #contact-form-form textarea{
+    color: black;
+    font-size: 18px;
+}
+#contact-name{
+    width: 50%;
+    height: 5vh;
+    margin: 5% 0;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+#contact-email{
+    width: 60%;
+    margin: 5% 0;
+    height: 5vh;
+    margin: 5% 0;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+#contact-subject{
+    width: 80%;
+    margin: 5% 0;
+    height: 10vh;
+    margin: 5% 0;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+#time{
+    font-size:62px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+}
+#date{
+    align-self: center;
+    color: rgba(255, 255, 255, 0.5);
+}
 #contact-more {
-    width: 100%;
-    height: 100%;
+    width: 30%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    align-items: center;
+    justify-content:center;
+    align-items: left;
     margin: 5%;
+    text-align: start;
 }
 #contact-more > h1 {
-    margin-bottom: 40px;
-    margin-top: -60px;
+    margin-bottom: 5%;
+    font-size: 50px;
 }
-#contact-more > img {
-    width: 60%;
-    margin-top: -70px;
+#contact-more > h4{
+    border-left: 1px solid white;
+    padding-left: 2%;
+    font-size: 25px;
+    margin-left: 30px;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+#contact-more li{
+    font-size: 18px;
+    list-style: none;
+    margin-left: -40px;
 }
 
+#contact-more li:before {
+    content:"·";
+    font-size:120px;
+    vertical-align:middle;
+    line-height:20px;
+}
+
+#contact-locked-screen img{
+    margin: 10px 0;
+}
+
+#iconsIpad {
+    width: 25%;
+    align-self: flex-end;
+}
+
+#lockerIcon {
+    width:8%;
+    align-self: center;
+}
+
+.notificationIpad:hover{
+    opacity: 0.9;
+}
+#unlock-text {
+    margin-top: 25px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    animation: fadeInOut 1.5s infinite;
+}
+#unlock-text:hover{
+    opacity: 0.7;
+}
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.6;
+    }
+}
+#contact-div{
+    display: flex;
+    justify-content: center;
+}
+#contact-button {
+    width: 100px;
+    height: 30px;
+    background-color: #FCC72E;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+    align-self: center;
+}
+#contact-button img{
+    width: 10%;
+    height: 60%;
+}
+#contact-button:hover{
+    opacity: 0.9;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+}
+#TYp{
+    font-size: 22px;
+    font-weight: 500;
+    animation: appear 2s;
+    position: absolute;
+    display: none;
+}
 /* ---------------- TERMS -------------- */
 #terms p{
     text-align: justify;
@@ -1046,4 +1156,71 @@ footer a{
 #TermsContainer{
     width: 60vw;
     margin: 100px 0;
+}
+
+/* ----------------- SEARCH ------------------ */
+#search-input{
+    width: 60%;
+    height: 40px;
+    margin-top: 3%;
+    background-color: #c4c4c4;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 60px 10px 60px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    z-index: 2;
+    background: url(img/lupa.svg) no-repeat scroll 5px 5px;
+    background-position: 2%;
+    
+}
+
+#search-input:focus{
+    border: none;
+    outline: none;
+}
+
+#search-results {
+    background-color: rgba(196, 196, 196, 0.6);
+    width: 60%;
+    padding: 40px 0 0 0;
+    border-radius: 30px;
+    margin-top: -3%;
+    z-index: 1;
+}
+
+.result-found {
+    padding: 15px 0;
+    font-size: 16px;
+    transition: 0.05s;
+    display: none;
+}
+.result-found:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+    font-weight: 450;
+    cursor:pointer;
+    transition: 0.05s;
+}
+#search-title {
+    margin-top: 7%;
+    font-size: 50px;
+}
+
+.search-link {
+    cursor: pointer;
+    margin-bottom: -40px;
+    align-content: center;
+    
+}
+.search-link1 {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: -40px;
+    align-content: center;
+}
+.search-link:hover {
+    opacity: 0.7;
 }

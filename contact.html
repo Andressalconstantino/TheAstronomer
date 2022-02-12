@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Contact</title>
 </head>
 <body id="contact-body">
     <div id="header">
-        <span class="beside-menu"><img width="20%" style="margin-bottom: -5px;" src="img/lupa.svg"><input type="text" id="search" placeholder="search"></input></span>
+        <a href="search.html" class="search-link"><span class="beside-menu"><img width="30%" style="margin-bottom: -5px;" src="img/lupa.svg">Search</span></a>
         <ul id="menu">
             <li><a href="AboutUs.html">About Us</a></li>
             <li><a href="index.html"><img src="img/logo.png"></a></li>
@@ -20,26 +21,52 @@
     <a href="index.html"> <img width="10px" style="margin: 30px 10px -3px 20px;" src="img/ArrowLeft.png"> Back to Home</a>
     <main id="contact">
         <div id=contact-form>
-            <div id="card-form">
-                <div class="textfieldcontact">
-                    <label for="contactname" id="contactname">NAME</label>
-                    <input type="text" id="contactname" name="contactname">
-                </div>
-                <div class="textfieldcontact">
-                    <label for="contactsubject" id="contactsubject">SUBJECT</label>
-                    <input type="text" id="contactsubject" name="contactsubject">
-                </div>
-                <div class="textfieldcontactdescription">
-                    <label for="contactdescription" id="contactdescription">DESCRIPTION</label>
-                    <input type="text" id="contactdescription" name="contactdescription">
-                </div>
-                <button class="btn-send">Send</button>
+            <div id="contact-locked-screen">
+                <img src="img/iconsIpad.png" id="iconsIpad">
+                <img src="img/lockerIconIpad.png" id="lockerIcon">
+                <p id="time"></p>
+                <p id="date"></p>
+
+                <img src="img/not1Ipad.png" class="notificationIpad">
+                <img src="img/not2Ipad.png" class="notificationIpad">
+                <p id="unlock-text">Click on the screen to unlock</p>
             </div>
+            <div id="contact-form-screen">
+                <div id="contact-header">
+                    <p id="smallTxt">The Astronomer</p>
+                    <p id="timeS"></p>
+                    <img src="img/iconsIpad.png">
+                </div>
+                <div id="contact-center">
+                    <h2>Fill the forms so we can help you...</h2>
+                    <img src="img/contact-form-icon.png">
+                </div>
+                <form id="contact-form-form" onsubmit="this.reset(); sendMessage(); return false;">
+                    <input id="contact-name" type="text" placeholder="Name: " required>
+                    <input id="contact-email" type="email" placeholder="Email: " required>
+                    <textarea id="contact-subject" type="text" placeholder="Subject" required></textarea>
+                    <button id="contact-button" type="submit">Send<img src="img/arrow-send-iPad.png"></button>
+                </form>
+                <div id="contact-div"> 
+                </div>
+            </div>
+            <p id="TYp">Thank You! <br>Your submition is being reviewed</p>
         </div>
 
         <div id="contact-more">
             <h1>Tell us more...</h1>
-            <img id="contact-img" src="img/contact-icon.png" alt="Illustration">
+            <h4>Need Help?</h4>
+            <ul>
+                <li class="contact-li">
+                    You can find our location through the interactive map in the footer
+                </li>
+                <li class="contact-li">
+                    Our Terms and Privacy pages are functional for your internet rights
+                </li>
+                <li class="contact-li">
+                    Our Development Team is not made up with fictional people, but with real *awesome* ones
+                </li>
+            </ul>
         </div>
     </main>
     <footer style="margin-top:100px">
@@ -90,4 +117,5 @@
 
     </footer>
 </body>
+<script src="scriptcontact.js"></script>
 </html>

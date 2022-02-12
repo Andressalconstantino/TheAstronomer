@@ -18,6 +18,9 @@
 
 .left-login > h1 {
     color: #F0F0F0;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: -45%;
 }
 
 .left-login-image {
